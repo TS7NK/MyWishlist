@@ -1,0 +1,57 @@
+.container{
+        text-align: center;
+    }
+    input,
+    #input::placeholder{
+        font-size: 20px;
+        text-align: center;
+    }
+    .center{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-family: "Papyrus",fantasy;
+    }
+    h2{
+        text-align: center;
+        font-family: "Papyrus",fantasy;
+    }
+    h3{ 
+        text-align: center;
+        font-family: Impact, Charcoal, sans-serif;
+    }
+    p{ 
+        text-align: center;
+        font-family: "Garamond", serif;
+    }
+    .sidenav {
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 20px;
+        left: 10px;
+        background-color:lightsteelblue;
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color:darkblue;
+        display: block;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .main {
+        margin-left: 160px; /*Same as the width of the sidenav*/ 
+        font-size: 28px;  /*Increased text to enable scrolling*/
+        padding: 0px 10px;
+    }
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }

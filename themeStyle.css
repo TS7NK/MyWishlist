@@ -1,0 +1,33 @@
+.background1{
+    /*
+    margin-left: 160px; Same as the width of the sidenav
+    font-size: 28px;  Increased text to enable scrolling
+    */
+    padding: 0px 10px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(greyMoon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feedback-back{
+    width: 100%;
+    height: 100vh;
+    /*background-color: bisque;*/
+    background-color:rgb(140, 206, 140);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color:white;
+}
